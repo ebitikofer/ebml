@@ -1,5 +1,4 @@
-(*eric bitikofer*)
-(*originated as hw6 in CS3200*)
+(*2016.eric.bitikofer*)
 
 (*remove_last - takes in a list and removes the last element in the list*)
 let rec remove_last lst =
@@ -43,3 +42,5 @@ let rec keep_two lst =
     [] -> []
     | hd::tl -> hd::unique_el hd (keep_two tl)
 ;;
+
+(*originated as hw6 in CS3200*)
